@@ -1,0 +1,81 @@
+h1 {
+    position: center;
+    font-family: utopia-std-headline, serif;
+    font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: white;
+    text-align: center;
+}
+h2 {
+    font-family: utopia-std-headline, serif;
+    font-style: italic;
+    font-size: 1.5em;
+    line-height: 1;
+    color: white;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+    text-align: center;
+}
+p {
+    font-family: utopia-std-headline, serif;
+    font-size: 1.2em;
+    line-height: 1;
+    color: white;
+    position: center;
+    text-align: center;
+}
+html, body {
+    height: 100%;
+    width:100%;
+    padding:0;
+    margin: 0;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+  }
+  
+  nav{
+    font-family: utopia-std-headline, serif;
+    font-size: 1.2em;
+    width: 500px;
+    margin: 0 auto; 
+    border: dotted white;
+    border-width: 2px 0; 
+    text-align: center;
+    margin-top: 2em;
+    }
+nav li{
+    display: inline; 
+    }
+
+nav a{display: inline-block;
+    padding: 8px; 
+    }
+    
+a{
+    color: white;
+    text-decoration: none; 
+    font-weight: bold;
+    }
+a:hover{
+    color: black;
+    background:lightgoldenrodyellow; 
+    }
+
+div {
+    width: 900px;
+    padding: 10px;
+    border: 3px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(83, 84, 85, 0.562);
+    }
+    
